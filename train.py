@@ -27,7 +27,7 @@ from torchvision import datasets, transforms
 # ======================= 超参数(可自行调整) =======================
 IMG_SIZE = 128          # 输入图片统一缩放到 128×128
 BATCH_SIZE = 64         # 每批图片数量(显存不够就调小)
-EPOCHS = 12             # 训练轮数
+EPOCHS = 20             # 训练轮数
 LR = 1e-3               # 学习率
 WEIGHT_DECAY = 1e-4     # L2 正则化强度(weight_decay), 你笔记里学过的
 SEED = 42               # 随机种子, 保证结果可复现
