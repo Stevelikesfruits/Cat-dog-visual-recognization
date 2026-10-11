@@ -1,0 +1,17 @@
+# 猫狗图像识别 (PyTorch) - 环境依赖
+#
+# 安装:
+#   pip install -r requirements.txt
+#
+# 说明:
+#   * Python 版本: 3.11
+#   * PyPI 上的 Windows 版 torch 是 CPU 版. 需要 GPU 加速时改用 PyTorch 官方源:
+#       pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu126
+#   * 以下版本为本项目验证过的组合 (torch 2.13.0+cu126, CUDA 可用)
+
+torch==2.13.0
+torchvision==0.28.0
+numpy==2.4.6
+pillow==12.3.0
+matplotlib==3.11.2
+kagglehub==1.0.2
